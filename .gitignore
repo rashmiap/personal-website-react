@@ -1,3 +1,10 @@
+# Dependency directories
 node_modules
+node_modules
+
+# Build Files
 .idea
-.cache
+.cache/
+
+# Gatsby context
+.gatsby-context.js

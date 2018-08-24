@@ -3,6 +3,7 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import styled from 'styled-components'
 import './index.css'
+import favicon from '../assets/images/rash-favicon.png'
 
 const Wrapper = styled.div`
   background: linear-gradient(135deg, #3268B9 0%, #164893 100%);
@@ -18,6 +19,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Sample' },
         { name: 'keywords', content: 'sample, something' },
+      ]}
+      link={[
+        { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
       ]}
     />
     <Wrapper>

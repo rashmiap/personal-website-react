@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "447d0184ee4e65d0966c1654e2868a9c",
+        "contentDigest": "b9f431cfd046f77806910237c33e4b99",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -279,11 +279,79 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-styled-components": {
+      "resolve": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-styled-components",
+      "id": "Plugin gatsby-plugin-styled-components",
+      "name": "gatsby-plugin-styled-components",
+      "version": "2.0.11",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyBabelrc"
+      ],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "replaceRenderer"
+      ],
+      "pluginFilepath": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-styled-components",
+      "packageJson": {
+        "name": "gatsby-plugin-styled-components",
+        "description": "Gatsby plugin to add support for styled components",
+        "version": "2.0.11",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "styled-components"
+        ],
+        "author": {
+          "name": "Guten Ye",
+          "email": "ywzhaifei@gmail.com"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "babel-runtime",
+            "version": "^6.26.0"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "babel-plugin-styled-components",
+            "version": ">1.5.0"
+          },
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          },
+          {
+            "name": "styled-components",
+            "version": ">= 2.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "bb29da5039db12b88fbe6a7c842ff1a6",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/rashmi/Github/personal-website-react",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "a77c4ad8ddfd7c099694aea8fa852ba5",
+      "version": "48b30e656aa18ae6096c9f64d54f0af4",
       "pluginOptions": {
         "plugins": []
       },
@@ -314,8 +382,16 @@
             "version": "^2.0.11"
           },
           {
+            "name": "gatsby-plugin-styled-components",
+            "version": "^2.0.11"
+          },
+          {
             "name": "react-helmet",
             "version": "^5.2.0"
+          },
+          {
+            "name": "styled-components",
+            "version": "^3.4.5"
           }
         ],
         "devDependencies": [
@@ -331,7 +407,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "45d199e456e13418ddea77dd0c2fadfc",
+        "contentDigest": "d08eb45dff9047236e6808aac76ff145",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -424,12 +500,14 @@
       },
       "port": "8000",
       "host": "localhost",
-      "buildTime": "2018-08-24T06:08:59.172Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-08-24T09:35:10.946Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d59a2f93672b5eaf93ed33ee3f214180",
+        "contentDigest": "c825d35ed64cf14fa20282aedc651a8c",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -450,7 +528,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "73b8613f6eb277f043e519c207b3d573",
+        "contentDigest": "751667113e089e3e42369786ad62e10d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -471,7 +549,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6abcd5429efcab1dba47d2714f538da0",
+        "contentDigest": "a279f51eff83e36e8d144f6ee2758eb5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -492,7 +570,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "263628e5a928caadebc99d476f57d078",
+        "contentDigest": "131de1a7d246a247dfbdbd12e0996ced",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -513,7 +591,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5adeb15a86aa21950b937fa6bc67b285",
+        "contentDigest": "c41ff585eb8db075d6d992bf0b699456",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -521,7 +599,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "673643eb1ce4b27a13383d8dd93b20b9"
+    "PLUGINS_HASH": "3aa35dc52e47030958582210a0f1b24b"
   },
   "componentDataDependencies": {
     "nodes": {

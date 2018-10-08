@@ -5,7 +5,7 @@ import Header from '../components/Header/header'
 import styled from 'styled-components'
 import './index.css'
 import favicon from '../assets/images/rash-favicon.png'
-import blueBg from '../assets/images/blue-bg.svg'
+import blueBg from '../assets/images/blue-bg.png'
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});

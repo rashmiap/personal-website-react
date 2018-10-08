@@ -1,15 +1,20 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
+import Header from '../components/Header/header'
 import styled from 'styled-components'
 import './index.css'
 import favicon from '../assets/images/rash-favicon.png'
+import blueBg from '../assets/images/blue-bg.png'
 
 const Wrapper = styled.div`
-  background: linear-gradient(135deg, #3268B9 0%, #164893 100%);
-  color: white;
-  margin: 0px auto;
+  background-image: url(${blueBg});
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
   height: 100vh;
+  background-position: bottom;
+  padding: 5% 8%;
 `;
 
 const Layout = ({ children, data }) => (
@@ -25,6 +30,7 @@ const Layout = ({ children, data }) => (
       ]}
     />
     <Wrapper>
+      <Header />
       {children()}
     </Wrapper>
   </div>

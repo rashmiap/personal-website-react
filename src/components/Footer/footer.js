@@ -12,6 +12,15 @@ const FooterBox = styled.div`
     font-weight: bold;
     text-decoration: none;
   }
+  @media (max-width: 700px) {
+    bottom: 0;
+    padding: 5% 0 0;
+    margin: 0px -8% -5% -8%;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eeeeee;
+  }
 `
 
 const Footer = () => (

@@ -1,7 +1,7 @@
 export default [
   {
     label: 'About',
-    path: '/about',
+    path: '/',
   },
   {
     label: 'Experience',

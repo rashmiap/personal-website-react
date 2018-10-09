@@ -13,7 +13,7 @@ const ContactWrapper = styled.div`
     }
   }
 `
-const ContactLink = styled(Link)`
+const ContactLink = styled.a`
   display: flex;
   align-items: center;
   text-decoration: none;
@@ -48,7 +48,7 @@ const SocialContact = ({ info }) => (
   <ContactWrapper>
     {
       info.linkTo ?
-      <ContactLink to={info.path}>
+      <ContactLink href={info.path}>
         <img src={info.icon} />
         <p>{info.title}</p>
       </ContactLink>:

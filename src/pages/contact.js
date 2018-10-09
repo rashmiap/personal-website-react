@@ -7,7 +7,7 @@ import social from '../data/Social'
 
 const ContactWrapper = styled.div`
   margin: 10% auto;
-  padding: 10% 10% 20%;
+  padding: 10% 0 20%;
   @media (max-width: 700px) {
     margin: 15% auto;
   }

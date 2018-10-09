@@ -5,9 +5,11 @@ import styled from 'styled-components'
 const LinkNav = styled(Link)`
   color: #ffffff;
   margin-right: 35px;
+  transition: color 0.2s ease-out;
   text-decoration: none;
   :hover{
     color: #7fa1e8;
+    transition: color 0.2s;
   }
   &.active{
     color: #7fa1e8;

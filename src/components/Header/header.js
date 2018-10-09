@@ -1,25 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import NavLink from './NavLink'
-
-const headerList = [
-  {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Experience',
-    path: '/experience',
-  },
-  {
-    label: 'Projects',
-    path: '/projects',
-  },
-  {
-    label: 'Contact',
-    path: '/contact',
-  }
-];
+import headerList from '../../data/Navigation'
 
 const Header = () => (
   <nav className='nav'>

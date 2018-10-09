@@ -2,15 +2,14 @@ import React from 'react'
 import Link from 'gatsby-link'
 import styled from 'styled-components'
 import RashSelfIcon from '../assets/images/rashmi.svg'
-import linkedIn from '../assets/images/linkedin.svg'
-import gmail from '../assets/images/gmail.svg'
-import github from '../assets/images/github.svg'
+import AboutBox from '../components/About/AboutBox'
+import about from '../data/About'
 
 const UserWrapper = styled.div`
   margin: 10% auto;
 `;
 const UserTitle = styled.h1`
-  font-size: 6em;
+  font-size: 4.2em;
   font-weight: bold;
   color: #ffffff;
   span{
@@ -21,6 +20,7 @@ const UserDescription = styled.div`
   display: flex;
   align-items: flex-start;
   justify-content: space-evenly;
+  margin-bottom: 5%;
   p{
     color: #ffffff;
     max-width: 90%;
@@ -47,10 +47,12 @@ const DownloadButton = styled.div`
     color: #7fa1e8;
   }
 `
-
-
-const IndexPage = () => (
-  <UserWrapper>
+const UserTopic = styled.div`
+  display: flex;
+  justify-content: space-evenly;
+`
+const IndexPage = () => {
+  return <UserWrapper>
     <UserTitle>Rashmi <span>AP</span></UserTitle>
     <UserDescription>
       <div>
@@ -63,7 +65,12 @@ const IndexPage = () => (
       </div>
       <img src={RashSelfIcon} alt="rashmi self" />
     </UserDescription>
+    <UserTopic>
+      {
+        about.map(item => (<AboutBox key={item.id} info={item} />))
+      }
+    </UserTopic>
   </UserWrapper>
-)
+}
 
 export default IndexPage

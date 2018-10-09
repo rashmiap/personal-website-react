@@ -16,7 +16,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "547754d16c672fc53011a0e58efd64da",
+        "contentDigest": "f056b8744f775f4770e6f0b28fc93502",
         "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
@@ -347,89 +347,11 @@
         "owner": "internal-data-bridge"
       }
     },
-    "Plugin gatsby-plugin-typography": {
-      "resolve": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-typography",
-      "id": "Plugin gatsby-plugin-typography",
-      "name": "gatsby-plugin-typography",
-      "version": "2.2.0",
-      "pluginOptions": {
-        "plugins": [],
-        "pathToConfigModule": "src/utils/typography"
-      },
-      "nodeAPIs": [
-        "onPreBootstrap"
-      ],
-      "browserAPIs": [],
-      "ssrAPIs": [
-        "onRenderBody"
-      ],
-      "pluginFilepath": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-typography",
-      "packageJson": {
-        "name": "gatsby-plugin-typography",
-        "description": "Gatsby plugin to setup server rendering of Typography.js' CSS",
-        "version": "2.2.0",
-        "main": "index.js",
-        "keywords": [
-          "gatsby",
-          "gatsby-plugin",
-          "typography",
-          "typography.js"
-        ],
-        "author": {
-          "name": "Kyle Mathews",
-          "email": "mathews.kyle@gmail.com"
-        },
-        "license": "MIT",
-        "dependencies": [
-          {
-            "name": "@babel/runtime",
-            "version": "^7.0.0"
-          }
-        ],
-        "devDependencies": [
-          {
-            "name": "@babel/cli",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "@babel/core",
-            "version": "^7.0.0"
-          },
-          {
-            "name": "cross-env",
-            "version": "^5.1.4"
-          }
-        ],
-        "peerDependencies": [
-          {
-            "name": "gatsby",
-            "version": ">2.0.0-alpha"
-          },
-          {
-            "name": "react-typography",
-            "version": "^0.16.1 || ^1.0.0-alpha.0"
-          },
-          {
-            "name": "typography",
-            "version": "^0.16.0 || ^1.0.0-alpha.0"
-          }
-        ],
-        "optionalDependecies": [],
-        "bundledDependecies": []
-      },
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "contentDigest": "3c4d32a98255eefc4cb2a867f2fdba4d",
-        "type": "SitePlugin",
-        "owner": "internal-data-bridge"
-      }
-    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/rashmi/Github/personal-website-react",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "8dec114eb74a06076aeb81b0bbd6a100",
+      "version": "a90109173f576db1fa65e0eebd112568",
       "pluginOptions": {
         "plugins": []
       },
@@ -497,7 +419,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "ff9142bae33d266f086f5964ef6832ec",
+        "contentDigest": "4ea5469769aaafebb00a1a8ca632d12a",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -592,12 +514,12 @@
       "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-08T05:24:02.181Z",
+      "buildTime": "2018-10-09T04:54:37.077Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "053f5e9bb82d791dcb2eae66bc8c56cd",
+        "contentDigest": "c3206371b60b1b8c35620e0f4e4b4238",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -618,7 +540,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5a67727a180c5dc0afdfcfdb7670f56d",
+        "contentDigest": "5975749f9f30b2f5474f71e5326c6de1",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -639,7 +561,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "1d1d3dca212b4115873af66dacdee673",
+        "contentDigest": "77cc658034693750be020ef09fe4859e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -660,7 +582,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8575a4f43253b72d46a78dd0bd5c22fa",
+        "contentDigest": "614868240667c4cc0087120d24c0a7d4",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -681,7 +603,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "07182681be6728fc8ec653b7cb163ff8",
+        "contentDigest": "84c794fcf6cb842b4f1c12d17d63770a",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -689,7 +611,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "5314310ec312f2e0d1ba184bd58d33f5"
+    "PLUGINS_HASH": "178c78f4c9f36969b5a66106074ddf7c"
   },
   "componentDataDependencies": {
     "nodes": {

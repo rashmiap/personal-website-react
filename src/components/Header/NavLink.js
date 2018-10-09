@@ -12,6 +12,9 @@ const LinkNav = styled(Link)`
   &.active{
     color: #7fa1e8;
   }
+  @media (max-width: 700px) {
+    margin-right: 5px;
+  }
 `
 const NavLink = ({ info }) => (
     <LinkNav

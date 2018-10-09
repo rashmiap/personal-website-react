@@ -2,6 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import Header from '../components/Header/header'
+import Footer from '../components/Footer/footer'
 import styled from 'styled-components'
 import './index.css'
 import favicon from '../assets/images/rash-favicon.png'
@@ -12,7 +13,7 @@ const Wrapper = styled.div`
   width: 100%;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  height: 113vh;
   background-position: bottom;
   padding: 5% 8%;
 `;
@@ -32,6 +33,7 @@ const Layout = ({ children, data }) => (
     <Wrapper>
       <Header />
       {children()}
+      <Footer />
     </Wrapper>
   </div>
 )

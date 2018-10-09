@@ -7,9 +7,11 @@ const Box = styled.div`
   border-radius: 8px;
   background-color: #ffffff;
   box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.5);
-  padding: 24px;
+  padding: 3% 2%;
   margin-right: 3%;
+  margin-bottom: 3%;
   width: 30%;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   :last-of-type{
@@ -19,6 +21,11 @@ const Box = styled.div`
     margin-top: auto;
     color: #7fa1e8;
     text-decoration: none;
+  }
+  @media (max-width: 700px) {
+    width: 100%;
+    min-height: auto;
+    padding: 5%;
   }
 `
 const AboutBox = ({ info }) => (

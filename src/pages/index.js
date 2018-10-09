@@ -59,6 +59,9 @@ const DownloadButton = styled.div`
   :hover{
     color: #7fa1e8;
   }
+  @media (max-width: 700px) {
+    width: 100%;
+  }
 `
 const UserTopic = styled.div`
   display: flex;

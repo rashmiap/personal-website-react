@@ -16,6 +16,11 @@ const Wrapper = styled.div`
   height: 113vh;
   background-position: bottom;
   padding: 5% 8%;
+  position: relative;
+  @media (max-width: 700px) {
+    min-height: 100vh;
+    height: auto;
+  }
 `;
 
 const Layout = ({ children, data }) => (

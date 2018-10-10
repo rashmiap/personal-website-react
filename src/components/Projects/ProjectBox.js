@@ -6,6 +6,7 @@ const Box = styled.div`
   max-width: 450px;
   width: 35%;
   min-height: 470px;
+  border-radius: 8px;
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
             0 3px 1px -2px rgba(0,0,0,0.12),
             0 1px 5px 0 rgba(0,0,0,0.2);
@@ -32,12 +33,13 @@ const BoxIcon = styled.div`
   box-sizing: border-box;
   background-color: rgba(127, 161, 232, 0.3);
   img{
-    width: 15%;
+    width: 25%;
     margin-right: 2%;
     margin-bottom: 0;
   }
   h3{
     margin: 0;
+    flex:1;
     color: #0f1645;
   }
 `
@@ -57,9 +59,9 @@ const BoxDescription = styled.div`
     margin:0 0 10px;
     text-decoration: none;
   }
-  a:first-of-type{
-    margin-top: auto;
-  }
+`
+const BoxStack = styled.p`
+  margin-top: auto;
 `
 const ProjectBox = ({ info }) => (
     <Box>
@@ -69,15 +71,17 @@ const ProjectBox = ({ info }) => (
       </BoxIcon>
       <BoxDescription>
         <p> {info.description}</p>
-        {
-          info.githubPath != null ?
-          <a href={info.githubPath}>On Github </a> : ''
-        }
-        {
-          info.demoPath != null ?
-          <a href={info.demoPath}>Project Demo </a> : ''
-        }
-        <p>Technology stack - {info.techUsed} </p>
+        <BoxStack>
+          {
+            info.githubPath != null ?
+            <a href={info.githubPath}>On Github </a> : ''
+          }
+          {
+            info.demoPath != null ?
+            <a href={info.demoPath}>Project Demo </a> : ''
+          }
+          <p>Technology stack - {info.techUsed} </p>
+        </BoxStack>
       </BoxDescription>
     </Box>
 );

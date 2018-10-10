@@ -33,5 +33,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "contact.json",
         "path": "/contact/"
+    },
+    {
+        "componentChunkName": "component---src-pages-projects-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "projects.json",
+        "path": "/projects/"
     }
 ]

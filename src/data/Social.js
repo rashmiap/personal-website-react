@@ -1,5 +1,5 @@
-import github from '../assets/images/github.svg';
-import linkedin from '../assets/images/linkedin.svg';
+import github from '../assets/images/github.svg'
+import linkedin from '../assets/images/linkedin.svg'
 
 export default [
     {

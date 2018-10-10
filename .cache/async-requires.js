@@ -5,7 +5,8 @@ exports.components = {
   "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/rashmi/Github/personal-website-react/src/pages/404.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/rashmi/Github/personal-website-react/src/pages/index.js"),
-  "component---src-pages-contact-js": require("gatsby-module-loader?name=component---src-pages-contact-js!/Users/rashmi/Github/personal-website-react/src/pages/contact.js")
+  "component---src-pages-contact-js": require("gatsby-module-loader?name=component---src-pages-contact-js!/Users/rashmi/Github/personal-website-react/src/pages/contact.js"),
+  "component---src-pages-projects-js": require("gatsby-module-loader?name=component---src-pages-projects-js!/Users/rashmi/Github/personal-website-react/src/pages/projects.js")
 }
 
 exports.json = {
@@ -14,7 +15,8 @@ exports.json = {
   "404.json": require("gatsby-module-loader?name=path---404!/Users/rashmi/Github/personal-website-react/.cache/json/404.json"),
   "index.json": require("gatsby-module-loader?name=path---index!/Users/rashmi/Github/personal-website-react/.cache/json/index.json"),
   "404-html.json": require("gatsby-module-loader?name=path---404-html!/Users/rashmi/Github/personal-website-react/.cache/json/404-html.json"),
-  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/rashmi/Github/personal-website-react/.cache/json/contact.json")
+  "contact.json": require("gatsby-module-loader?name=path---contact!/Users/rashmi/Github/personal-website-react/.cache/json/contact.json"),
+  "projects.json": require("gatsby-module-loader?name=path---projects!/Users/rashmi/Github/personal-website-react/.cache/json/projects.json")
 }
 
 exports.layouts = {

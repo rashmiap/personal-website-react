@@ -512,14 +512,12 @@
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-10-09T04:54:37.077Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "c3206371b60b1b8c35620e0f4e4b4238",
+        "contentDigest": "5415006f6c08fea0c09bd96dc9a59e26",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -604,6 +602,27 @@
       "internal": {
         "type": "SitePage",
         "contentDigest": "c9c4ee973de212a8fb0e4f76a616a5fc",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
+      "componentChunkName": "component---src-pages-projects-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "2090e4278b1253cdeb4c0cb75fe812b5",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }

@@ -647,6 +647,27 @@
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
+    },
+    "SitePage /experience/": {
+      "layout": "index",
+      "jsonName": "experience.json",
+      "internalComponentName": "ComponentExperience",
+      "path": "/experience/",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/experience.js",
+      "componentChunkName": "component---src-pages-experience-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/experience.js",
+      "id": "SitePage /experience/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "15ab71d1f3c458a4bdb30bd41eff8fac",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
     }
   },
   "status": {

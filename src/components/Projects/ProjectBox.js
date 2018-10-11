@@ -31,10 +31,13 @@ const BoxIcon = styled.div`
   align-items: center;
   padding: 4%;
   box-sizing: border-box;
+  border-radius: inherit;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
   background-color: rgba(127, 161, 232, 0.3);
   img{
     width: 25%;
-    margin-right: 2%;
+    margin-right: 5%;
     margin-bottom: 0;
   }
   h3{

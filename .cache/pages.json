@@ -40,5 +40,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "projects.json",
         "path": "/projects/"
+    },
+    {
+        "componentChunkName": "component---src-pages-recommendation-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "recommendation.json",
+        "path": "/recommendation/"
     }
 ]

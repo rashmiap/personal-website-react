@@ -11,7 +11,8 @@ exports.components = {
   "component---src-pages-404-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/404.js")),
   "component---src-pages-index-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/index.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/contact.js")),
-  "component---src-pages-projects-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/projects.js"))
+  "component---src-pages-projects-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/projects.js")),
+  "component---src-pages-recommendation-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/recommendation.js"))
 }
 
 exports.json = {
@@ -21,5 +22,6 @@ exports.json = {
   "index.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/index.json"),
   "404-html.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/404-html.json"),
   "contact.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/contact.json"),
-  "projects.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/projects.json")
+  "projects.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/projects.json"),
+  "recommendation.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/recommendation.json")
 }

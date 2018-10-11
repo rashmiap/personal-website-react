@@ -10,7 +10,7 @@ export default [
         id: 1,
         title: "Zoojoobe Social Stream",
         icon: like,
-        description: "Social feed is a feature on the ZoojooBE platform that leverages on the social behavior within the corporate.It allows users on the platform to share media that keeps them motivated to do a certain task. Like all other social feeds, ZoojooBE Stream also has social elements like liking, sharing, commenting, subscribing to a particular post and so on. Developed using ReactJS and draft-js-plugins, a react plugin architecture for Facebook's Draft.js which includes emojis, mentions and stickers. ",
+        description: "Social feed is a feature on the Zoojoobe platform that leverages on the social behaviour within the corporate.It allows users on the platform to share media that keeps them motivated to do a certain task. Like all other social feeds, Zoojoobe Stream also has social elements like liking, sharing, commenting, subscribing to a particular post and so on. Developed using ReactJS and draft-js-plugins, a react plugin architecture for Facebook's Draft.js which includes emojis, mentions and stickers. ",
         githubPath: null,
         demoPath: null,
         techUsed: "React, react-dropzone, draft-js-plugins"
@@ -19,7 +19,7 @@ export default [
         id: 2,
         title: "Zoojoobe Dare",
         icon: dare,
-        description: "Dare is a feature on the ZoojooBE platform developed in ReactJS that primarily focuses on the competitive behavior of the users. Two users compete with each other to complete a particular healthy task. Meanwhile other users within the corporate can motivate the user using the cheer function.",
+        description: "Dare is a feature on the Zoojoobe platform developed in ReactJS that primarily focuses on the competitive behaviour of the users. Two users compete with each other to complete a particular healthy task. Meanwhile other users within the corporate can motivate the user using the cheer function.",
         githubPath: null,
         demoPath: null,
         techUsed: "React, Material-UI"
@@ -28,7 +28,7 @@ export default [
         id: 3,
         title: "Zoojoobe Journey",
         icon: journey,
-        description: "Journey feature on the ZoojooBE platform is a set of curated activities that are a set of micro-tasks that a user has to form to achieve a bigger goal like forming a complex habit. Journey feature has multiple levels which changes based on user activity. The whole task list is customised based on user activity.",
+        description: "Journey feature on the Zoojoobe platform is a set of curated activities that are a set of micro-tasks that a user has to form to achieve a bigger goal like forming a complex habit. Journey feature has multiple levels which changes based on user activity. The whole task list is customised based on user activity.",
         githubPath: null,
         demoPath: null,
         techUsed: "React, Material-UI"

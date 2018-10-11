@@ -21,6 +21,7 @@ const Box = styled.div`
   }
   @media (max-width: 700px) {
     width: 100%;
+    min-height: auto;
     max-width: fit-content;
   }
 `

@@ -47,5 +47,12 @@
         "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "recommendation.json",
         "path": "/recommendation/"
+    },
+    {
+        "componentChunkName": "component---src-pages-experience-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "experience.json",
+        "path": "/experience/"
     }
 ]

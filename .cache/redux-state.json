@@ -1,23 +1,13 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
-      "layout": "index",
-      "jsonName": "dev-404-page.json",
-      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
-      "component": "/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js",
-      "componentChunkName": "component---cache-dev-404-page-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin dev-404-page",
-      "pluginCreatorId": "Plugin dev-404-page",
-      "componentPath": "/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f056b8744f775f4770e6f0b28fc93502",
-        "description": "Plugin dev-404-page",
+        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
         "owner": "internal-data-bridge"
       }
     },
@@ -394,6 +384,10 @@
             "version": "^5.2.0"
           },
           {
+            "name": "react-tabs",
+            "version": "^2.3.0"
+          },
+          {
             "name": "react-typography",
             "version": "^0.16.13"
           },
@@ -510,14 +504,14 @@
       "siteMetadata": {
         "title": "Rashmi AP"
       },
-      "port": "8000",
-      "host": "localhost",
-      "buildTime": "2018-10-09T04:54:37.077Z",
+      "pathPrefix": "",
+      "polyfill": true,
+      "buildTime": "2018-10-12T06:54:14.136Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "5415006f6c08fea0c09bd96dc9a59e26",
+        "contentDigest": "5af5b066ae986aacc006b57a1af96fbc",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -538,50 +532,8 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "5975749f9f30b2f5474f71e5326c6de1",
+        "contentDigest": "61b06b8d2dac1ef327743af818317a41",
         "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /": {
-      "layout": "index",
-      "jsonName": "index.json",
-      "internalComponentName": "ComponentIndex",
-      "path": "/",
-      "component": "/Users/rashmi/Github/personal-website-react/src/pages/index.js",
-      "componentChunkName": "component---src-pages-index-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/index.js",
-      "id": "SitePage /",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "77cc658034693750be020ef09fe4859e",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /404.html": {
-      "layout": "index",
-      "jsonName": "404-html.json",
-      "internalComponentName": "Component404Html",
-      "path": "/404.html",
-      "component": "/Users/rashmi/Github/personal-website-react/src/pages/404.js",
-      "componentChunkName": "component---src-pages-404-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin prod-404",
-      "pluginCreatorId": "Plugin prod-404",
-      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/404.js",
-      "id": "SitePage /404.html",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "84c794fcf6cb842b4f1c12d17d63770a",
-        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     },
@@ -601,49 +553,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c9c4ee973de212a8fb0e4f76a616a5fc",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /projects/": {
-      "layout": "index",
-      "jsonName": "projects.json",
-      "internalComponentName": "ComponentProjects",
-      "path": "/projects/",
-      "component": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
-      "componentChunkName": "component---src-pages-projects-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
-      "id": "SitePage /projects/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "2090e4278b1253cdeb4c0cb75fe812b5",
-        "description": "Plugin gatsby-plugin-page-creator",
-        "owner": "internal-data-bridge"
-      }
-    },
-    "SitePage /recommendation/": {
-      "layout": "index",
-      "jsonName": "recommendation.json",
-      "internalComponentName": "ComponentRecommendation",
-      "path": "/recommendation/",
-      "component": "/Users/rashmi/Github/personal-website-react/src/pages/recommendation.js",
-      "componentChunkName": "component---src-pages-recommendation-js",
-      "context": {},
-      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
-      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
-      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/recommendation.js",
-      "id": "SitePage /recommendation/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "3da05bc76bdf780b6b5446f2483bbcea",
+        "contentDigest": "adf84bf2ed80cb04632d2b24435b84ce",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -664,15 +574,99 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "15ab71d1f3c458a4bdb30bd41eff8fac",
+        "contentDigest": "2791c0a1713011f1d8739e58047f033e",
         "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /": {
+      "layout": "index",
+      "jsonName": "index.json",
+      "internalComponentName": "ComponentIndex",
+      "path": "/",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/index.js",
+      "componentChunkName": "component---src-pages-index-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/index.js",
+      "id": "SitePage /",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "410a55156e0b5597b268a67a0792ee6a",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /projects/": {
+      "layout": "index",
+      "jsonName": "projects.json",
+      "internalComponentName": "ComponentProjects",
+      "path": "/projects/",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
+      "componentChunkName": "component---src-pages-projects-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/projects.js",
+      "id": "SitePage /projects/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "10a99e5d03e8b3d532f512e4c42a3c76",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /recommendation/": {
+      "layout": "index",
+      "jsonName": "recommendation.json",
+      "internalComponentName": "ComponentRecommendation",
+      "path": "/recommendation/",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/recommendation.js",
+      "componentChunkName": "component---src-pages-recommendation-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin gatsby-plugin-page-creator",
+      "pluginCreatorId": "Plugin gatsby-plugin-page-creator",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/recommendation.js",
+      "id": "SitePage /recommendation/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "d15f4bd73279a0b2e49ebb6866ab00cb",
+        "description": "Plugin gatsby-plugin-page-creator",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /404.html": {
+      "layout": "index",
+      "jsonName": "404-html.json",
+      "internalComponentName": "Component404Html",
+      "path": "/404.html",
+      "component": "/Users/rashmi/Github/personal-website-react/src/pages/404.js",
+      "componentChunkName": "component---src-pages-404-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin prod-404",
+      "pluginCreatorId": "Plugin prod-404",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/src/pages/404.js",
+      "id": "SitePage /404.html",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "6d9e4496d11390169a5333cc53ed2cc2",
+        "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "178c78f4c9f36969b5a66106074ddf7c"
+    "PLUGINS_HASH": "a49e5eac1b293c69a324c65505302600"
   },
   "componentDataDependencies": {
     "nodes": {

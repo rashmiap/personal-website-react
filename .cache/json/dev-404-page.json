@@ -1,1 +1,1 @@
-{"data":{"allSitePage":{"totalCount":7,"edges":[{"node":{"path":"/404/"}},{"node":{"path":"/"}},{"node":{"path":"/404.html"}},{"node":{"path":"/contact/"}},{"node":{"path":"/projects/"}},{"node":{"path":"/recommendation/"}},{"node":{"path":"/experience/"}}]}},"pathContext":{}}
+{"data":{"allSitePage":{"totalCount":7,"edges":[{"node":{"path":"/404/"}},{"node":{"path":"/contact/"}},{"node":{"path":"/experience/"}},{"node":{"path":"/"}},{"node":{"path":"/projects/"}},{"node":{"path":"/recommendation/"}},{"node":{"path":"/404.html"}}]}},"pathContext":{}}

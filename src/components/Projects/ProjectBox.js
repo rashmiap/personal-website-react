@@ -64,8 +64,11 @@ const BoxDescription = styled.div`
     text-decoration: none;
   }
 `
-const BoxStack = styled.p`
+const BoxStack = styled.div`
   margin-top: auto;
+  p{
+    margin: 0;
+  }
 `
 const ProjectBox = ({ info }) => (
     <Box>
@@ -84,6 +87,7 @@ const ProjectBox = ({ info }) => (
             info.demoPath != null ?
             <a href={info.demoPath}>Project Demo </a> : ''
           }
+          <p>Development year - {info.year} </p>
           <p>Technology stack - {info.techUsed} </p>
         </BoxStack>
       </BoxDescription>

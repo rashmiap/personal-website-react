@@ -65,7 +65,7 @@ const DownloadButton = styled.div`
 `
 const UserTopic = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   @media (max-width: 700px) {
     flex-direction: column;
   }

@@ -1,0 +1,22 @@
+.line{
+  position: absolute;
+  border-left: 1px solid #7fa1e8;
+  left: 10px;
+  bottom: 0;
+  top: 0;
+}
+.circle{
+    width: 21px;
+    height: 21px;
+    line-height: 21px;
+    border-radius: 50%;
+    background: #7fa1e8;
+    position: relative;
+    color: #fff;
+    text-align: center;
+}
+.step {
+    position: relative;
+    min-height: 32px;
+    display: flex;
+}

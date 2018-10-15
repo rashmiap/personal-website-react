@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Signika:400,700');
-
+@import url('https://fonts.googleapis.com/css?family=Signika:300,400,600');
 html {
   font-family: 'Signika', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -617,8 +616,61 @@ pre tt:after {
 div,p{
   font-family: 'Signika', sans-serif;
 }
+.Wrapper{
+  background-image: url('../assets/images/blue-bg.png');
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  height: auto;
+  background-position: bottom;
+  padding: 5% 8%;
+  position: relative;
+}
+.cutBackground{
+  height: 113vh;
+}
+.defaultFooter{
+  box-sizing: border-box;
+  text-align: center;
+}
+.defaultFooter p {
+  color: #0f1645;
+}
+.defaultFooter a {
+  color: #7fa1e8;
+  font-weight: bold;
+  text-decoration: none;
+}
+.footerAbsolute{
+  margin: 8% auto 0;
+  text-align: CENTER;
+  bottom: 0;
+  margin: 0 -8% -5% -8%;
+  position: absolute;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: #eeeeee;
+}
+.footerInitial{
+  position: inherit;
+}
 @media only screen and (max-width: 480px) {
   html {
     font-size: 100%;
+  }
+  .cutBackground{
+    height: auto;
+  }
+  .defaultFooter{
+    padding: 5% 0 0;
+    margin: 8% auto 0;
+    text-align: CENTER;
+    bottom: 0;
+    margin: 0 -8% -5% -8%;
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #eeeeee;
   }
 }

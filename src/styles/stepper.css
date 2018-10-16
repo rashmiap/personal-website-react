@@ -24,3 +24,11 @@
 .experience-stepper .step:last-of-type{
   padding: 0 50px 0 0;
 }
+@media (max-width: 700px) {
+  .step {
+    padding: 0;
+  }
+  .experience-stepper .step:last-of-type{
+    padding: 0;
+  }
+}

@@ -12,6 +12,9 @@ const ExperienceWrapper = styled.div`
   display: flex;
   color: #eeeeee;
   padding: 5% 0;
+  @media (max-width: 700px) {
+    flex-direction: column;
+  }
 `
 const WorkWrapper = styled.div`
   flex: 2;
@@ -22,6 +25,9 @@ const WorkWrapper = styled.div`
     margin-bottom: 35px;
     border-bottom: solid 1px #ffffff;
   }
+  @media (max-width: 700px) {
+    margin-right: 0;
+  }
 `
 const EdWrapper = styled.div`
   flex:1;
@@ -31,13 +37,22 @@ const EdWrapper = styled.div`
     margin-bottom: 35px;
     border-bottom: solid 1px #ffffff;
   }
+  @media (max-width: 700px) {
+    margin: 40px 0;
+  }
 `
 const EdContent = styled.div`
   font-weight: 300;
   margin-bottom: 100px;
+  @media (max-width: 700px) {
+    margin: 0 0 40px 0;
+  }
 `
 const Stepper = styled.div`
   padding-left: 50px;
+  @media (max-width: 700px) {
+    padding: 10px;
+  }
 `
 const StepperHead = styled.div`
   display: flex;
@@ -52,6 +67,10 @@ const StepperHead = styled.div`
     font-weight: 300;
     color: #eeeeee;
     text-decoration: none;
+  }
+  @media (max-width: 700px) {
+    flex-direction: column;
+    align-items: flex-start;
   }
 `
 const LogoLink = styled.a`
@@ -73,7 +92,9 @@ const StepperDesc = styled.div`
     font-weight: 300;
     margin: 5px;
   }
-
+  @media (max-width: 700px) {
+    max-width: 100%;
+  }
 `
 const Experience = () => (
   <ExperienceWrapper>

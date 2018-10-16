@@ -627,7 +627,7 @@ div,p{
   padding: 5% 8%;
   position: relative;
 }
-.cutBackground{
+div.cutBackground{
   height: 113vh;
 }
 .defaultFooter{

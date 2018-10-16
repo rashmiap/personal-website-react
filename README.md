@@ -1,7 +1,7 @@
 [**Personal Portfolio Website**](https://github.com/rashmiap/personal-website-react)
 -
 Hello world 👋. <br/>
-This site is developed using [Gatsby]🚀 (https://www.gatsbyjs.org/).<br/>
+This site is developed using [**Gatsby**](https://www.gatsbyjs.org/)🚀.<br/>
 Check out the site at https://rashmiap.surge.sh/
 
 Illustration Credits - https://github.com/princealikhan👑

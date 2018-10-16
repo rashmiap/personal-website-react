@@ -136,18 +136,18 @@ const Experience = () => (
             </div>))
         }
       </EdContent>
-      <h1>Language</h1>
-      <EdContent>
-        {
-          lang.map(item => (<div key={item.id}>
-            <p>{item.name}</p>
-            </div>))
-        }
-      </EdContent>
       <h1>Interests</h1>
       <EdContent>
         {
           hobby.map(item => (<div key={item.id}>
+            <p>{item.name}</p>
+            </div>))
+        }
+      </EdContent>
+      <h1>Language</h1>
+      <EdContent>
+        {
+          lang.map(item => (<div key={item.id}>
             <p>{item.name}</p>
             </div>))
         }

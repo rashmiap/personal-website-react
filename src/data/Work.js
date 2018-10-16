@@ -1,5 +1,5 @@
 import zoojoobe from '../assets/images/zjb-logo.svg'
-import cat from '../assets/images/cat-logo.png'
+import cat from '../assets/images/cat-logo.svg'
 
 export default [
     {

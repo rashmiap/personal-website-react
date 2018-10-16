@@ -19,6 +19,9 @@ const ProjectsSection = styled.div`
     flex-direction: column;
     margin-bottom: 10%;
   }
+  @media (min-width: 768px) and (max-width: 1030px) {
+    flex-direction: column;
+  }
 `
 const Projects = () => (
   <ProjectsWrapper>

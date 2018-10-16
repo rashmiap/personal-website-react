@@ -15,7 +15,7 @@ const LinkNav = styled(Link)`
     color: #7fa1e8;
   }
   @media (max-width: 700px) {
-    margin-right: 5px;
+    margin-right: 14px;
   }
 `
 const NavLink = ({ info }) => (

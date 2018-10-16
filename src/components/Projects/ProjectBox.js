@@ -24,6 +24,13 @@ const Box = styled.div`
     min-height: auto;
     max-width: fit-content;
   }
+  @media (min-width: 768px) and (max-width: 1030px) {
+    width: 100%;
+    min-height: auto;
+    box-sizing: border-box;
+    max-width: 100%;
+    margin: 0 0 4%;
+  }
 `
 const BoxIcon = styled.div`
   height: 120px;
@@ -45,6 +52,11 @@ const BoxIcon = styled.div`
     margin: 0;
     flex:1;
     color: #0f1645;
+  }
+  @media (min-width: 768px) and (max-width: 1030px) {
+    img{
+      width: 10%;
+    }
   }
 `
 const BoxDescription = styled.div`

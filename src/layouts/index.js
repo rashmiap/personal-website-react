@@ -5,6 +5,7 @@ import Header from '../components/Header/header'
 import Footer from '../components/Footer/footer'
 import styled from 'styled-components'
 import './index.css'
+import { siteMeta } from '../data/Seo'
 import favicon from '../assets/images/rash-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
 
@@ -33,8 +34,10 @@ export default class Layout extends Component {
         <Helmet
           title={this.props.data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'description', content: siteMeta.description },
+            { name: 'keywords', content: siteMeta.keywords.join(", ") },
+            { name: 'author', content: siteMeta.author },
+            { name: 'copyright', content: siteMeta.copyright },
           ]}
           link={[
             { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
@@ -49,25 +52,6 @@ export default class Layout extends Component {
     )
   }
 }
-// const Layout = ({ children, data }) => (
-//   <div>
-//     <Helmet
-//       title={data.site.siteMetadata.title}
-//       meta={[
-//         { name: 'description', content: 'Sample' },
-//         { name: 'keywords', content: 'sample, something' },
-//       ]}
-//       link={[
-//         { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-//       ]}
-//     />
-//     <Wrapper>
-//       <Header />
-//       {children()}
-//       <Footer />
-//     </Wrapper>
-//   </div>
-// )
 
 Layout.propTypes = {
   children: PropTypes.func,

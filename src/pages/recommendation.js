@@ -17,10 +17,15 @@ const RecWrapper = styled.div`
 `
 const RecBox = styled.div`
   margin-top: 10%;
-  color: white;
-  h3{
+  color: #eeeeee;
+  h3 a{
     margin: 0;
+    color: #eeeeee;
+    text-decoration: none;
     font-weight: 300;
+  }
+  h3 a:hover{
+    color: #7fa1e8;
   }
   hr{
     background: #7fa1e8;
@@ -47,7 +52,7 @@ const Recommendation = () => (
     <h1>Recommendation</h1>
     {
       rec.map(item => (<RecBox key={item.id} >
-      <h3>{item.name}</h3>
+      <h3><a href={item.userLink}>{item.name}</a></h3>
         <p>{item.designation}</p>
         <p>{item.dated}</p>
         <RecDes>{item.description}</RecDes>

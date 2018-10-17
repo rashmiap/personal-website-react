@@ -7,6 +7,7 @@ exports.layouts = {
 }
 
 exports.components = {
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/404.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/contact.js")),
   "component---src-pages-experience-js": preferDefault(require("/Users/rashmi/Github/personal-website-react/src/pages/experience.js")),
@@ -17,6 +18,7 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/layout-index.json"),
+  "dev-404-page.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/404.json"),
   "contact.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/contact.json"),
   "experience.json": require("/Users/rashmi/Github/personal-website-react/.cache/json/experience.json"),

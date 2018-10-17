@@ -15,7 +15,7 @@ export default [
     {
       id: 2,
       title: "Bolly-Quiz : Bollywood quizzing app",
-      description: "A ‘C’ based static application developed using utility tools like RPM, MELD and MAKE. Developed by a 3 member team. This Quiz Application provides 4 categories that is Actors, Movies, Musicians and Miscellaneous to pick from and also tracks the highest score and updates it when necessary.",
+      description: "A ‘C’ based static application developed using utility tools like RPM, MELD and MAKE. Developed by a 3 member team. This Quiz Application provides 4 categories - Actors, Movies, Musicians and Miscellaneous to pick from and also tracks the highest score and updates it when necessary.",
       icon: quiz,
       githubPath: null,
       demoPath: null,

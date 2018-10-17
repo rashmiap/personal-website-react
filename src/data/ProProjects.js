@@ -40,7 +40,7 @@ export default [
         id: 4,
         title: "Zoojoobe Pregnancy module",
         icon: pregnancy,
-        description: "Maternity module was primarily designed for the women within a corporate. The feature takes into account the user's due date based on which it recommends articles and relevant mindfulness tracks. This feature helps them in staying healthy throughout the process.",
+        description: "Maternity module was primarily designed for the women within a corporate. The feature takes into account the user's due date based on which it recommends articles and relevant mindfulness tracks. This feature helps them stay healthy throughout the process.",
         githubPath: null,
         demoPath: null,
         year: "2017",

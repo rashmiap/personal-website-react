@@ -512,18 +512,17 @@
     },
     "Site": {
       "siteMetadata": {
-        "title": "Rashmi AP"
+        "title": "Rashmi AP",
+        "siteUrl": "http://rashmiap.me"
       },
       "port": "8000",
       "host": "localhost",
-      "pathPrefix": "",
-      "polyfill": true,
       "buildTime": "2018-10-17T05:11:39.241Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "330aff9a8b31cf09d0606571472bc27e",
+        "contentDigest": "fa110f555d3b24ff1dcff3e399a880ce",
         "type": "Site",
         "owner": "internal-data-bridge"
       }

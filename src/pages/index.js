@@ -4,7 +4,6 @@ import styled from 'styled-components'
 import RashSelfIcon from '../assets/images/rashmi.svg'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
-import resume from '../../RashmiAp-Resume.pdf'
 
 const UserWrapper = styled.div`
   margin: 10% auto;
@@ -82,7 +81,7 @@ const IndexPage = () => {
         front end developer, visual artist and an animal lover
         based out of Bangalore.
         </p>
-        <DownloadButton href={resume} title="Resume">Download Resume</DownloadButton>
+        <DownloadButton href="https://github.com/rashmiap/personal-website-react/raw/master/RashmiAp-Resume.pdf"  download title="Resume">Download Resume</DownloadButton>
       </div>
       <img src={RashSelfIcon} alt="rashmi self" />
     </UserDescription>

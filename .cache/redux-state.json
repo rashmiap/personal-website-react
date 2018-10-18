@@ -1,13 +1,23 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/rashmi/Github/personal-website-react/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "f642a33e773b4f1a87867fb775287908",
+        "description": "Plugin dev-404-page",
         "owner": "internal-data-bridge"
       }
     },
@@ -337,11 +347,60 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-google-fonts": {
+      "resolve": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-google-fonts",
+      "id": "Plugin gatsby-plugin-google-fonts",
+      "name": "gatsby-plugin-google-fonts",
+      "version": "0.0.4",
+      "pluginOptions": {
+        "plugins": [],
+        "fonts": [
+          "Signika",
+          "source sans pro:300,400,600"
+        ]
+      },
+      "nodeAPIs": [],
+      "browserAPIs": [],
+      "ssrAPIs": [
+        "onRenderBody"
+      ],
+      "pluginFilepath": "/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-google-fonts",
+      "packageJson": {
+        "name": "gatsby-plugin-google-fonts",
+        "description": "Bring Google Fonts to Gatsby",
+        "version": "0.0.4",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gastby-plugin",
+          "react",
+          "google",
+          "fonts"
+        ],
+        "author": {
+          "name": "Didier Franc",
+          "email": "dev@didierfranc.com"
+        },
+        "license": "MIT",
+        "dependencies": [],
+        "devDependencies": [],
+        "peerDependencies": [],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "9b809ffe10eee1cd8b7b758af0159777",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/rashmi/Github/personal-website-react",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "c9c82992f31a3aec697b30c2b7aa8d45",
+      "version": "b55e0d9573481cd6d77d42ae41abec2a",
       "pluginOptions": {
         "plugins": []
       },
@@ -366,6 +425,10 @@
           {
             "name": "gatsby-link",
             "version": "^1.6.46"
+          },
+          {
+            "name": "gatsby-plugin-google-fonts",
+            "version": "0.0.4"
           },
           {
             "name": "gatsby-plugin-react-helmet",
@@ -413,7 +476,7 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "d94e157b2cbb8af63a3b85e3f1555d30",
+        "contentDigest": "de5612bd2d741b7c770c31ed456ae770",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
@@ -505,14 +568,16 @@
         "title": "Rashmi AP",
         "siteUrl": "http://rashmiap.me"
       },
+      "port": "8000",
+      "host": "localhost",
       "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-10-18T07:05:00.743Z",
+      "buildTime": "2018-10-18T07:38:55.028Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "cfe22b9f5b0b3529e14287e5e8686d2d",
+        "contentDigest": "3ce4a7085fa11fa55ea07bc1985e03fe",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -533,7 +598,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "791cd51d979595d4918d5a53eb70babe",
+        "contentDigest": "514398de822dae91335e2b183389d8ae",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -554,7 +619,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "9536efc54981cefd1bcae8a10a76dbbf",
+        "contentDigest": "13900b693602ae7bb3d50087fc98da04",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -575,7 +640,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a3f9905bdc9c523727a955c71fbb1649",
+        "contentDigest": "81e7f03e4a51d5f96bdf4442d08dcc6e",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -596,7 +661,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "c2251e69532f468a6b0fa2415bed48e0",
+        "contentDigest": "1edf2acdd52d3bc31a2f86349ca76fc3",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -617,7 +682,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "30239754385ade747132aba36cbef01f",
+        "contentDigest": "c126afe7cd635d95ee6a8d59cd5592dc",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -638,7 +703,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "57524df4790904eba968f1c81654ab21",
+        "contentDigest": "c6aa14d65aea2dc7e64dae706adc4f5d",
         "description": "Plugin gatsby-plugin-page-creator",
         "owner": "internal-data-bridge"
       }
@@ -659,7 +724,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "8b4309152e5790893ae5b703079c8340",
+        "contentDigest": "23d22f31ee1a31fdd83f3445a4862808",
         "description": "Plugin prod-404",
         "owner": "internal-data-bridge"
       }
@@ -667,7 +732,7 @@
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "da688c8f8ff0a59e0c22555b7bf58da0"
+    "PLUGINS_HASH": "1692d3371b5341f20f7b3824f0810b15"
   },
   "componentDataDependencies": {
     "nodes": {

@@ -4,6 +4,9 @@ var plugins = [{
     },{
       plugin: require('/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[]},
+    },{
+      plugin: require('/Users/rashmi/Github/personal-website-react/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      options: {"plugins":[],"fonts":["Signika","source sans pro:300,400,600"]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

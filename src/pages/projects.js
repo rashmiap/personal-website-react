@@ -6,23 +6,8 @@ import hobbyProjects from '../data/HobbyProjects'
 import proProjects from '../data/ProProjects'
 import gradProjects from '../data/GradProjects'
 import ProjectBox from '../components/Projects/ProjectBox'
+import { ProjectsWrapper, ProjectsSection } from '../styles/projectsStyle.js'
 
-const ProjectsWrapper = styled.div`
-  padding-top: 10%;
-  padding-bottom: 5%;
-`
-const ProjectsSection = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  @media (max-width: 700px) {
-    flex-direction: column;
-    margin-bottom: 10%;
-  }
-  @media (min-width: 768px) and (max-width: 1030px) {
-    flex-direction: column;
-  }
-`
 const Projects = () => (
   <ProjectsWrapper>
     <Tabs>

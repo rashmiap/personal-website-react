@@ -43,6 +43,7 @@ export const EdContent = styled.div`
 `
 export const Stepper = styled.div`
   padding-left: 50px;
+  width: 100%;
   @media (max-width: 700px) {
     padding: 10px;
   }

@@ -7,7 +7,6 @@ exports.layouts = {
 }
 
 exports.components = {
-  "component---cache-dev-404-page-js": preferDefault(require("/Users/rash-ap/Documents/Github/Personal Website/.cache/dev-404-page.js")),
   "component---src-pages-404-js": preferDefault(require("/Users/rash-ap/Documents/Github/Personal Website/src/pages/404.js")),
   "component---src-pages-contact-js": preferDefault(require("/Users/rash-ap/Documents/Github/Personal Website/src/pages/contact.js")),
   "component---src-pages-experience-js": preferDefault(require("/Users/rash-ap/Documents/Github/Personal Website/src/pages/experience.js")),
@@ -18,7 +17,6 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/rash-ap/Documents/Github/Personal Website/.cache/json/layout-index.json"),
-  "dev-404-page.json": require("/Users/rash-ap/Documents/Github/Personal Website/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/rash-ap/Documents/Github/Personal Website/.cache/json/404.json"),
   "contact.json": require("/Users/rash-ap/Documents/Github/Personal Website/.cache/json/contact.json"),
   "experience.json": require("/Users/rash-ap/Documents/Github/Personal Website/.cache/json/experience.json"),

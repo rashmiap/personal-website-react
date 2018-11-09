@@ -4,7 +4,7 @@ Hello world 👋. <br/>
 This site is developed using [**Gatsby**](https://www.gatsbyjs.org/)🚀.<br/>
 Check out the site at https://rashmiap.surge.sh/
 
-Illustration Credits - [**Prince Ali Khan**](https://github.com/princealikhan)👑
+Illustration Credits - [**Prince Ali Khan**](https://github.com/princealikhan) 👑
 -
 ![Preview Me](src/assets/images/rashmi.svg)
 

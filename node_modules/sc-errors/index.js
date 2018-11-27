@@ -284,7 +284,7 @@ var unserializableErrorProperties = {
 module.exports.dehydrateError = function dehydrateError(error, includeStackTrace) {
   var dehydratedError;
 
-  if (error && typeof error == 'object') {
+  if (error && typeof error === 'object') {
     dehydratedError = {
       message: error.message
     };
@@ -296,7 +296,7 @@ module.exports.dehydrateError = function dehydrateError(error, includeStackTrace
         dehydratedError[i] = error[i];
       }
     }
-  } else if (typeof error == 'function') {
+  } else if (typeof error === 'function') {
     dehydratedError = '[function ' + (error.name || 'anonymous') + ']';
   } else {
     dehydratedError = error;
@@ -309,7 +309,7 @@ module.exports.dehydrateError = function dehydrateError(error, includeStackTrace
 module.exports.hydrateError = function hydrateError(error) {
   var hydratedError = null;
   if (error != null) {
-    if (typeof error == 'object') {
+    if (typeof error === 'object') {
       hydratedError = new Error(error.message);
       for (var i in error) {
         if (error.hasOwnProperty(i)) {

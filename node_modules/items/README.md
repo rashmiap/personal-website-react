@@ -5,7 +5,7 @@ Bare minimum async methods adapted specifically for the very limited **hapi** co
 
 [![Build Status](https://secure.travis-ci.org/hapijs/items.png)](http://travis-ci.org/hapijs/items)
 
-Lead Maintainer - [Raquel Vélez](https://github.com/rockbot)
+Lead Maintainer - [Eran Hammer](https://github.com/hueniverse)
 
 ## `Items.serial(items, method, callback)`
 

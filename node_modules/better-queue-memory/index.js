@@ -65,7 +65,9 @@ MemoryStore.prototype.takeFirstN = function (n, cb) {
     tasks[taskId] = self._tasks[taskId];
     delete self._tasks[taskId];
   })
-  self._running[lockId] = tasks;
+  if (taskIds.length > 0) {
+    self._running[lockId] = tasks;
+  }
   cb(null, lockId);
 }
 
@@ -78,7 +80,9 @@ MemoryStore.prototype.takeLastN = function (n, cb) {
     tasks[taskId] = self._tasks[taskId];
     delete self._tasks[taskId];
   })
-  self._running[lockId] = tasks;
+  if (taskIds.length > 0) {
+    self._running[lockId] = tasks;
+  }
   cb(null, lockId);
 }
 

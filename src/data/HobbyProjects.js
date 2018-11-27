@@ -3,6 +3,7 @@ import audio from '../assets/images/projects/audio.svg'
 import game from '../assets/images/projects/game.svg'
 import todo from '../assets/images/projects/todo.svg'
 import quote from '../assets/images/projects/quote.svg'
+import fitness from '../assets/images/projects/fitness.svg'
 
 export default [
     {
@@ -37,6 +38,16 @@ export default [
     },
     {
         id: 4,
+        title: "Exercise Journal API",
+        icon: fitness,
+        description: "A REST API that processes exercise activity which was part of the freecode curriculum. The frontend is built using HTML/CSS and is used to demo API functions. API is built using Node/Express and handles data creation, updates, and retrieval. Backend is a MongoDB document database that stores user and exercise data.",
+        githubPath: "https://github.com/rashmiap/fcc-exercisetracker",
+        demoPath: "https://exercise-rash-tracker.glitch.me",
+        year: "2018",
+        techUsed: "NodeJS, MongoDB, Mongoose"
+    },
+    {
+        id: 5,
         title: "React motion ToDo App",
         icon: todo,
         description: "This is a simple responsive ToDo app developed using React and React-motion",
@@ -46,7 +57,7 @@ export default [
         techUsed: "React, React-motion, Material-UI"
     },
     {
-        id: 5,
+        id: 6,
         title: "React Quote Machine",
         icon: quote,
         description: "A responsive ReactJS random quote generator machine 🔮",

@@ -16,6 +16,9 @@ const LinkNav = styled(Link)`
   }
   @media (max-width: 700px) {
     margin-right: 14px;
+    :last-of-type{
+      display: flex;
+    }
   }
 `
 const NavLink = ({ info }) => (

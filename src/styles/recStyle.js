@@ -43,4 +43,5 @@ export const RecBox = styled.div`
 export const RecDes = styled.p`
   margin: 2% 0;
   font-weight: 300;
+  max-width: 85%;
 `

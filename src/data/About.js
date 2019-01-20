@@ -14,7 +14,7 @@ export default [
     {
         id: 3,
         title: "Recommendation",
-        description: "I am also very humbled by the words of some great professionals about my work. Here are my favorite.",
+        description: "I am also very humbled by the words of some great professionals about my work. Here are my favorites.",
         path: "/recommendation"
     }
 ];

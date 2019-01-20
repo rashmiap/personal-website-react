@@ -9,6 +9,14 @@ export default [
     },
     {
         id: 2,
+        name: "Suvasini Raghavan",
+        designation: "Integrated Marketing Manager, Zoojoo.BE",
+        userLink: "https://www.linkedin.com/in/suvasini-raghavan/",
+        dated: "January 20, 2019",
+        description: "I have known Rashmi since the time she joined as an intern. Rashmi worked as a web developer and is extremely quick in understanding and delivering the requirements. Chatty, fun-loving, dedicated, passionate and talented - she was everything that makes for a great colleague!"
+    },
+    {
+        id: 3,
         name: "Prince Ali Khan",
         designation: "Software Engineer at RoundGlass",
         userLink: "https://www.linkedin.com/in/princealikhan/",
@@ -16,7 +24,7 @@ export default [
         description: "Rashmi is very passionate and has a great vision for her work. I work with Rashmi in Zoojoo.Be for past two years. Her focus keeps everything moving smoothly. She is responsible for web interface of Zoojoo.Be product. She makes sure all the deadline are met and at the same time meets the highest standards. Rashmi spends decent amount of time updating her skill and learn new technologies and implement the same to make the product more efficient and user-friendly."
     },
     {
-        id: 3,
+        id: 4,
         name: "Prashanna Guru",
         designation: "Growth Product Manager at Great Learning",
         userLink: "https://www.linkedin.com/in/prashannaguru/",

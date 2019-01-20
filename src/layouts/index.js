@@ -31,23 +31,6 @@ export default class Layout extends Component {
   render(){
     return(
       <div>
-        <Helmet
-          title={this.props.data.site.siteMetadata.title}
-          meta={[
-            { name: 'description', content: siteMeta.description },
-            { name: 'keywords', content: siteMeta.keywords.join(", ") },
-            { name: 'author', content: siteMeta.author },
-            { name: 'copyright', content: siteMeta.copyright },
-          ]}
-          link={[
-            { rel: 'shortcut icon', type: 'image/png', href: `${favicon}` }
-          ]}
-        />
-        <Wrapper className={this.props.location.pathname == "/" ? 'cutBackground' :''}>
-          <Header />
-            {this.props.children()}
-          <Footer footerClass={this.props.location.pathname == "/" ? 'footerInitial' :'footerAbsolute'} />
-        </Wrapper>
       </div>
     )
   }
@@ -56,13 +39,3 @@ export default class Layout extends Component {
 Layout.propTypes = {
   children: PropTypes.func,
 }
-
-export const query = graphql`
-  query SiteTitleQuery {
-    site {
-      siteMetadata {
-        title
-      }
-    }
-  }
-`

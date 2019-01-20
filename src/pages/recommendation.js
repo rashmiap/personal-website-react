@@ -1,9 +1,10 @@
 import React from 'react'
 import rec from '../data/Recommendation'
-import RashSelfIcon from '../assets/images/rashmi.svg'
 import { RecWrapper, RecBox, RecDes } from '../styles/recStyle.js'
+import Layout from '../components/layout'
 
 const Recommendation = () => (
+  <Layout>
   <RecWrapper>
     <h1>Recommendation</h1>
     {
@@ -17,6 +18,7 @@ const Recommendation = () => (
       ))
     }
   </RecWrapper>
+  </Layout>
 )
 
 export default Recommendation

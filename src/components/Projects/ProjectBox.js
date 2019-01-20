@@ -1,4 +1,3 @@
-import Link from 'gatsby-link'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -85,7 +84,7 @@ const BoxStack = styled.div`
 const ProjectBox = ({ info }) => (
     <Box>
       <BoxIcon>
-        <img src={info.icon} />
+        <img src={info.icon} alt="rashmiap project icon" />
         <h3>{info.title}</h3>
       </BoxIcon>
       <BoxDescription>

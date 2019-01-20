@@ -1,4 +1,3 @@
-import Link from 'gatsby-link'
 import React from 'react'
 import styled from 'styled-components'
 
@@ -49,11 +48,11 @@ const SocialContact = ({ info }) => (
     {
       info.linkTo ?
       <ContactLink href={info.path}>
-        <img src={info.icon} />
+        <img src={info.icon} alt="contact link rashmiap" />
         <p>{info.title}</p>
       </ContactLink>:
       <ContactBox>
-        <img src={info.icon} />
+        <img src={info.icon} alt="contact link rashmiap"/>
         <p>{info.title}</p>
       </ContactBox>
     }

@@ -1,14 +1,15 @@
 import React from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs'
 import '../styles/tabs.css'
-import styled from 'styled-components'
 import hobbyProjects from '../data/HobbyProjects'
 import proProjects from '../data/ProProjects'
 import gradProjects from '../data/GradProjects'
 import ProjectBox from '../components/Projects/ProjectBox'
 import { ProjectsWrapper, ProjectsSection } from '../styles/projectsStyle.js'
+import Layout from '../components/layout'
 
 const Projects = () => (
+  <Layout>
   <ProjectsWrapper>
     <Tabs>
       <TabList>
@@ -40,6 +41,7 @@ const Projects = () => (
       </TabPanel>
     </Tabs>
   </ProjectsWrapper>
+  </Layout>
 )
 
 export default Projects

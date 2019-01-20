@@ -24,7 +24,7 @@ const LinkNav = styled(Link)`
 const NavLink = ({ info }) => (
     <LinkNav
         to={info.path}
-        exact={true}
+        exact={"true"}
         activeClassName="active"
     >
         {info.label}

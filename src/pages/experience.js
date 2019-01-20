@@ -1,14 +1,14 @@
 import React from 'react'
-import RashSelfIcon from '../assets/images/rashmi.svg'
 import '../styles/stepper.css'
-import styled from 'styled-components'
 import work from '../data/Work'
 import grad from '../data/Edu'
 import lang from '../data/Language'
 import hobby from '../data/Interests'
 import { ExperienceWrapper, WorkWrapper, EdWrapper, EdContent, Stepper, StepperHead, LogoLink, StepperDesc } from '../styles/workStyle.js'
+import Layout from '../components/layout'
 
 const Experience = () => (
+  <Layout>
   <ExperienceWrapper>
     <WorkWrapper>
       <h1>Work Experience</h1>
@@ -66,6 +66,7 @@ const Experience = () => (
       </EdContent>
     </EdWrapper>
   </ExperienceWrapper>
+  </Layout>
 )
 
 export default Experience

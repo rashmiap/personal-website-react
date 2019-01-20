@@ -1,26 +1,28 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
-  "version": "1.0.0",
+  "name": "Rashmi ap's personal portfolio website",
+  "private": true,
+  "description": "A simple portfolio website developed quickly with Gatsby",
+  "version": "0.1.0",
   "author": "Rashmi AP <rashmiap.10@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^1.9.277",
-    "gatsby-link": "^1.6.46",
-    "gatsby-plugin-google-analytics": "next",
+    "gatsby": "^2.0.76",
+    "gatsby-image": "^2.0.20",
+    "gatsby-plugin-google-analytics": "^2.0.9",
     "gatsby-plugin-google-fonts": "0.0.4",
-    "gatsby-plugin-react-helmet": "next",
-    "gatsby-plugin-styled-components": "next",
-    "gatsby-plugin-typography": "next",
-    "history": "^4.7.2",
-    "react": "^16.4.1",
-    "react-dom": "^16.4.1",
+    "gatsby-plugin-manifest": "^2.0.9",
+    "gatsby-plugin-offline": "^2.0.16",
+    "gatsby-plugin-react-helmet": "^3.0.2",
+    "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-styled-components": "^3.0.4",
+    "gatsby-source-filesystem": "^2.0.8",
+    "gatsby-transformer-sharp": "^2.1.8",
+    "prop-types": "^15.6.2",
+    "react": "^16.6.3",
+    "react-dom": "^16.6.3",
     "react-helmet": "^5.2.0",
-    "react-router-dom": "^4.3.1",
-    "react-tabs": "^2.3.0",
-    "react-typography": "^0.16.13",
-    "styled-components": "^3.4.5",
-    "typography": "^0.16.17"
+    "react-tabs": "^3.0.0",
+    "styled-components": "^4.1.3"
   },
   "keywords": [
     "gatsby"
@@ -29,14 +31,18 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write 'src/**/*.js'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run develop",
+    "format": "prettier --write \"src/**/*.js\"",
+    "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
   "devDependencies": {
-    "prettier": "^1.13.7"
+    "prettier": "^1.15.2"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   }
 }

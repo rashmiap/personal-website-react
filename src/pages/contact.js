@@ -1,12 +1,12 @@
 import React from 'react'
-import Link from 'gatsby-link'
-import styled from 'styled-components'
 import SocialContact from '../components/Contact/SocialContact'
 import contact from '../data/Contact'
 import social from '../data/Social'
 import { ContactWrapper, ContactHeader, ContactDetails, ContactBox } from '../styles/contactStyle.js'
+import Layout from '../components/layout'
 
 const Contact = () => (
+  <Layout>
   <ContactWrapper>
     <ContactHeader>Get in touch</ContactHeader>
     <ContactDetails>
@@ -24,6 +24,7 @@ const Contact = () => (
         </ContactBox>
     </ContactDetails>
   </ContactWrapper>
+  </Layout>
 )
 
 export default Contact

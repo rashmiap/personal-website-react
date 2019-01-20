@@ -1,12 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import RashSelfIcon from '../assets/images/rashmi.svg'
 import AboutBox from '../components/About/AboutBox'
 import about from '../data/About'
 import { UserWrapper, UserTitle, UserDescription, DownloadButton, UserTopic } from '../styles/indexStyle.js'
+import Layout from '../components/layout'
 
 const IndexPage = () => {
-  return <UserWrapper>
+  return <Layout>
+  <UserWrapper>
     <UserTitle>Rashmi <span>AP</span></UserTitle>
     <UserDescription>
       <div>
@@ -25,6 +26,7 @@ const IndexPage = () => {
       }
     </UserTopic>
   </UserWrapper>
+  </Layout>
 }
 
 export default IndexPage

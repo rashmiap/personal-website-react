@@ -1,5 +1,5 @@
 {
-  "name": "Rashmi ap's personal portfolio website",
+  "name": "personal-website-reach",
   "private": true,
   "description": "A simple portfolio website developed quickly with Gatsby",
   "version": "0.1.0",
@@ -32,6 +32,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "now-build": "npm run build",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },

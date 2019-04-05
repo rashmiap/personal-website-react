@@ -17,6 +17,14 @@ export default [
     },
     {
         id: 3,
+        name: "Snehanjan Shome",
+        designation: "UX Designer, Aware",
+        userLink: "https://www.linkedin.com/in/snehanjan/",
+        dated: "March 2, 2019",
+        description: "Rashmi has been a great asset to the team. Her keen eye for design and quick ability to learn a technology that is best suited for the task at hand meant quick project turn arounds with a phenomenal output. Any team that is dynamic enough to utilize her skills and capabilities would be lucky to have Rashmi as a member. Also, her caring and Dog-loving nature made her a great person to have around in the office. "
+    },
+    {
+        id: 4,
         name: "Prince Ali Khan",
         designation: "Software Engineer at RoundGlass",
         userLink: "https://www.linkedin.com/in/princealikhan/",
@@ -24,7 +32,7 @@ export default [
         description: "Rashmi is very passionate and has a great vision for her work. I work with Rashmi in Zoojoo.Be for past two years. Her focus keeps everything moving smoothly. She is responsible for web interface of Zoojoo.Be product. She makes sure all the deadline are met and at the same time meets the highest standards. Rashmi spends decent amount of time updating her skill and learn new technologies and implement the same to make the product more efficient and user-friendly."
     },
     {
-        id: 4,
+        id: 5,
         name: "Prashanna Guru",
         designation: "Growth Product Manager at Great Learning",
         userLink: "https://www.linkedin.com/in/prashannaguru/",

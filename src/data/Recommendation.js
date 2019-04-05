@@ -17,7 +17,7 @@ export default [
     },
     {
         id: 3,
-        name: "Snehanjan Shome",
+        name: "Snehanjan Shome ",
         designation: "UX Designer, Aware",
         userLink: "https://www.linkedin.com/in/snehanjan/",
         dated: "March 2, 2019",

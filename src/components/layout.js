@@ -8,9 +8,12 @@ import favicon from '../assets/images/rash-favicon.png'
 import blueBg from '../assets/images/blue-bg.png'
 import { Location } from '@reach/router'
 
-import Header from './Header/Header'
-import Footer from '../components/Footer/footer'
+// import Header from '../components/Header/Header'
+// import Footer from '../components/Footer/Footer'
+
 import '../layouts/index.css'
+import Header from './Header/Header';
+import Footer from './Footer/Footer';
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});

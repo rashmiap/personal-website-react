@@ -12,8 +12,8 @@ import { Location } from '@reach/router'
 // import Footer from '../components/Footer/Footer'
 
 import '../layouts/index.css'
-import Header from './Header/Header';
-import Footer from './Footer/Footer';
+import Header from './Header/header';
+import Footer from './Footer/footer';
 
 const Wrapper = styled.div`
   background-image: url(${blueBg});

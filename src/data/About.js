@@ -2,7 +2,7 @@ export default [
     {
         id: 1,
         title: "Experience",
-        description: "In my 3 years as a professional front end developer, I have had the opportunity to work with some great companies.",
+        description: "In my 4 years as a professional front end developer, I have had the opportunity to work with some great companies.",
         path: "/experience"
     },
     {

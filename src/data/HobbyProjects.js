@@ -48,6 +48,16 @@ export default [
     },
     {
         id: 5,
+        title: "React MobX Movies App",
+        icon: movie,
+        description: "This is a responsive movies app that displays the latest upcoming movies, built using ReactJS and utilizes MobX for state management.The Movie Database (TMDb) API is used to fetch data. Can search for movies based on movie name. Can view full details including cast members of each movie by clicking on 'See More' button.",
+        githubPath: "https://github.com/rashmiap/mobx-tmdb-react-app",
+        demoPath: "http://mobx-tmdb-app.surge.sh/",
+        year: "2019",
+        techUsed: "React, MobX, Material-UI, TMDb api"
+    },
+    {
+        id: 6,
         title: "React motion ToDo App",
         icon: todo,
         description: "This is a simple responsive ToDo app developed using React and React-motion",
@@ -57,7 +67,7 @@ export default [
         techUsed: "React, React-motion, Material-UI"
     },
     {
-        id: 6,
+        id: 7,
         title: "React Quote Machine",
         icon: quote,
         description: "A responsive ReactJS random quote generator machine 🔮",

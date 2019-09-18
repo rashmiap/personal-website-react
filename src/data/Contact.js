@@ -1,4 +1,3 @@
-import phone from '../assets/images/call.svg'
 import gmail from '../assets/images/gmail.svg'
 
 export default [

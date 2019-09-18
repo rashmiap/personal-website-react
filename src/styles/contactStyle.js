@@ -14,7 +14,7 @@ export const ContactHeader = styled.h1`
 `
 export const ContactDetails = styled.div`
   display: flex;
-  align-items: center;
+  align-items: baseline;
   justify-content: space-around;
   h3{
     font-size: 30px;
@@ -23,6 +23,7 @@ export const ContactDetails = styled.div`
   }
   @media (max-width: 700px) {
     flex-direction: column;
+    align-items: center;
   }
 `
 export const ContactBox = styled.div`

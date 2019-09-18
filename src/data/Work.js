@@ -10,7 +10,7 @@ export default [
         dated: "November 2018 - present",
         logo: amygb,
         companyLink: "http://www.amygb.ai",
-        description: "<p>AmyGB Specializes in developing products in the area of Text & Vision with an aim to personalize offerings for enterprises, in a way that enhances their customer experience as well as engagement, while reducing the associated costs for an enterprise using machine learning including deep learning & advanced NLP to simulate human like actions to resolve high impact problems for an enterprise.</p><p>Contribution : <p> <ul><li>Designed and implemented an Express/NodeJS microservice REST API for AmyGB sales website that handles creation, updates and retrieval of data on MongoDB. AWS SES was used to send transactional emails to requested end users.</li></p>"
+        description: "<p>AmyGB Specializes in developing products in the area of Text & Vision with an aim to personalize offerings for enterprises, in a way that enhances their customer experience as well as engagement, while reducing the associated costs for an enterprise using machine learning including deep learning & advanced NLP to simulate human like actions to resolve high impact problems for an enterprise.</p><p>Contribution : <p> <ul><li>Designed and implemented an Express/NodeJS microservice REST API for AmyGB sales website that handles creation, updates and retrieval of data on MongoDB. AWS SES was used to send transactional emails to requested end users.</li><li>Responsible for development and delivery of the complete front-end of products like Mail ERA, Vision ERA and KB Bot.</li><li>Developed several quick web apps within short timelines for multiple client requirements, POCs and trade shows.</li></p>"
     },
     {
         id: 2,

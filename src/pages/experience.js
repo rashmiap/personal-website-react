@@ -35,6 +35,7 @@ const Experience = () => (
 										<a
 											href={item.companyLink}
 											target="_blank"
+											rel="noopener noreferrer"
 										>
 											{item.name}
 										</a>

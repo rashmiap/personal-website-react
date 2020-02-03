@@ -8,11 +8,16 @@ const Footer = ({ footerClass }) => (
 			<a
 				href="https://github.com/rashmiap/personal-website-react"
 				target="_blank"
+				rel="noopener noreferrer"
 			>
 				Github
 			</a>{" "}
 			| Designer{" "}
-			<a href="https://www.behance.net/ntshgdwn3596" target="_blank">
+			<a
+				href="https://www.behance.net/ntshgdwn3596"
+				target="_blank"
+				rel="noopener noreferrer"
+			>
 				Natasha G
 			</a>
 		</p>

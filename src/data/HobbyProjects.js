@@ -1,7 +1,6 @@
 import movie from "../assets/images/projects/movie.svg";
 import audio from "../assets/images/projects/audio.svg";
 import game from "../assets/images/projects/game.svg";
-import quote from "../assets/images/projects/quote.svg";
 import fitness from "../assets/images/projects/fitness.svg";
 
 export default [
@@ -14,7 +13,7 @@ export default [
 		githubPath: "https://github.com/rashmiap/react-redux-TMDb-app",
 		demoPath: "https://redux-tmdb-app.surge.sh/",
 		year: "2018",
-		techUsed: "React, Redux, Redux-Thunk, TMDb api"
+		techUsed: "React, Redux, Redux-Thunk, TMDb api",
 	},
 	{
 		id: 2,
@@ -25,7 +24,7 @@ export default [
 		githubPath: "https://github.com/rashmiap/audioDB-react-app",
 		demoPath: "https://audiodb-artist-searchapp.surge.sh",
 		year: "2018",
-		techUsed: "React, Material-UI, theaudiodb"
+		techUsed: "React, Material-UI, theaudiodb",
 	},
 	{
 		id: 3,
@@ -36,7 +35,7 @@ export default [
 		githubPath: "https://github.com/rashmiap/bulls-cows-react-game",
 		demoPath: "https://bulls-cows-game.surge.sh",
 		year: "2018",
-		techUsed: "React, styled-components"
+		techUsed: "React, styled-components",
 	},
 	{
 		id: 4,
@@ -47,7 +46,7 @@ export default [
 		githubPath: "https://github.com/rashmiap/fcc-exercisetracker",
 		demoPath: "https://exercise-rash-tracker.glitch.me",
 		year: "2018",
-		techUsed: "NodeJS, MongoDB, Mongoose"
+		techUsed: "NodeJS, MongoDB, Mongoose",
 	},
 	{
 		id: 5,
@@ -58,16 +57,6 @@ export default [
 		githubPath: "https://github.com/rashmiap/mobx-tmdb-react-app",
 		demoPath: "http://mobx-tmdb-app.surge.sh/",
 		year: "2019",
-		techUsed: "React, MobX, Material-UI, TMDb api"
+		techUsed: "React, MobX, Material-UI, TMDb api",
 	},
-	{
-		id: 6,
-		title: "React Quote Machine",
-		icon: quote,
-		description: "A responsive ReactJS random quote generator machine 🔮",
-		githubPath: "https://github.com/rashmiap/react-quote-machine",
-		demoPath: "https://react-quote-machine.surge.sh",
-		year: "2018",
-		techUsed: "React, create-react-app"
-	}
 ];

@@ -12,7 +12,7 @@ import {
 	Stepper,
 	StepperHead,
 	LogoLink,
-	StepperDesc
+	StepperDesc,
 } from "../styles/workStyle.js";
 import Layout from "../components/layout";
 
@@ -22,7 +22,7 @@ const Experience = () => (
 			<WorkWrapper>
 				<h1>Work Experience</h1>
 				<div className="experience-stepper">
-					{work.map(item => (
+					{work.map((item) => (
 						<div key={item.id} className="step">
 							<div>
 								<div className="circle" />
@@ -35,6 +35,7 @@ const Experience = () => (
 										<a
 											href={item.companyLink}
 											target="_blank"
+											rel="noreferrer"
 										>
 											{item.name}
 										</a>
@@ -50,7 +51,7 @@ const Experience = () => (
 								</StepperHead>
 								<StepperDesc
 									dangerouslySetInnerHTML={{
-										__html: item.description
+										__html: item.description,
 									}}
 								/>
 							</Stepper>
@@ -62,7 +63,7 @@ const Experience = () => (
 			<EdWrapper>
 				<h1>Education</h1>
 				<EdContent>
-					{grad.map(item => (
+					{grad.map((item) => (
 						<div key={item.id}>
 							<p>
 								Graduated with a {item.degree}'s Degree majored
@@ -75,7 +76,7 @@ const Experience = () => (
 				</EdContent>
 				<h1>Interests</h1>
 				<EdContent>
-					{hobby.map(item => (
+					{hobby.map((item) => (
 						<div key={item.id}>
 							<p>{item.name}</p>
 						</div>
@@ -83,7 +84,7 @@ const Experience = () => (
 				</EdContent>
 				<h1>Language</h1>
 				<EdContent>
-					{lang.map(item => (
+					{lang.map((item) => (
 						<div key={item.id}>
 							<p>{item.name}</p>
 						</div>

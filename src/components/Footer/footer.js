@@ -8,17 +8,22 @@ const Footer = ({ footerClass }) => (
 			<a
 				href="https://github.com/rashmiap/personal-website-react"
 				target="_blank"
+				rel="noreferrer"
 			>
 				Github
 			</a>{" "}
 			| Designer{" "}
-			<a href="https://www.behance.net/ntshgdwn3596" target="_blank">
+			<a
+				href="https://www.behance.net/ntshgdwn3596"
+				target="_blank"
+				rel="noreferrer"
+			>
 				Natasha G
 			</a>
 		</p>
 	</div>
 );
 Footer.propTypes = {
-	footerClass: PropTypes.string
+	footerClass: PropTypes.string,
 };
 export default Footer;
